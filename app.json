@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Cobrinha no Jardim",
+    "slug": "cobrinha-no-jardim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cobrinhanojardim.app",
+      "infoPlist": {
+        "CFBundleDevelopmentRegion": "pt_BR",
+        "CFBundleLocalizations": ["pt-BR"],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "web": { "name": "Cobrinha no Jardim", "lang": "pt-BR" },
+    "plugins": [
+      [
+        "expo-audio",
+        { "microphonePermission": false, "recordAudioAndroid": false }
+      ]
+    ]
+  }
+}
